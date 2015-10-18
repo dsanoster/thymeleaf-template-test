@@ -18,7 +18,7 @@ public class ThymeleafTemplateTestServlet extends HttpServlet {
     resp.getWriter().println("<meta charset=\"UTF-8\">");
     resp.getWriter().println("</head>");
     resp.getWriter().println("<body>");
-    resp.getWriter().println("<div th:fragment=\"time\">" + new Date().toString() + "</div>");
+    resp.getWriter().println("<div th:fragment=\"datetime\">" + new Date().toString() + "</div>");
     resp.getWriter().println("</body>");
     resp.getWriter().println("</html>");
   }
